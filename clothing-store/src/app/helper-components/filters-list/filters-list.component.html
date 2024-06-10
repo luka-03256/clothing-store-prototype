@@ -1,0 +1,8 @@
+<h5>{{title}}</h5>
+<div>
+  <ul class="list-unstyled fw-normal pb-1 small">
+    <li *ngFor="let filterItem of filterItems;  let i = index;" class="link-dark rounded">
+      <app-filters-list-item [type]="type" [filterItem]="filterItem"></app-filters-list-item>
+    </li>
+  </ul>
+</div>

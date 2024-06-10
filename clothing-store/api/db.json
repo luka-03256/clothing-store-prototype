@@ -1,0 +1,1452 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Nikola",
+      "lastName": "Strugarevic",
+      "email": "nikolas@gmail.com",
+      "phoneNumber": "065/532-34-13",
+      "address": "Vojvode Supljikca 27a",
+      "username": "nikola123",
+      "password": "slkj3lkjsd875lgj"
+    },
+    {
+      "id": 2,
+      "firstName": "Goran",
+      "lastName": "Draskovic",
+      "email": "gorand@gmail.com",
+      "phoneNumber": "065/532-34-13",
+      "address": "Vojvode Supljikca 27a",
+      "username": "nikola123",
+      "password": "lkjg93289lk"
+    },
+    {
+      "id": 3,
+      "firstName": "Dragan",
+      "lastName": "Stojanovic",
+      "email": "drago@yahoo.com",
+      "phoneNumber": "065/532-34-13",
+      "address": "Vojvode Supljikca 27a",
+      "username": "nikola123",
+      "password": "slkjg9832klg"
+    },
+    {
+      "id": 4,
+      "firstName": "Petar",
+      "lastName": "Petrovic",
+      "email": "ppetar@mail.pe",
+      "phoneNumber": "065/532-34-13",
+      "address": "Vojvode Supljikca 27a",
+      "username": "nikola123",
+      "password": "qwerty1234"
+    },
+    {
+      "id": 5,
+      "firstName": "Adrijan",
+      "lastName": "Adrijanovic",
+      "email": "adri40@outlook.com",
+      "phoneNumber": "065/532-34-13",
+      "address": "Vojvode Supljikca 27a",
+      "username": "nikola123",
+      "password": "1234"
+    },
+    {
+      "firstName": "Mirko",
+      "lastName": "Cro-Cop",
+      "email": "mirko@mailme.com",
+      "phoneNumber": "069-342-5232",
+      "username": "mirko32",
+      "password": "mdn",
+      "id": 6
+    },
+    {
+      "firstName": "Slobodan",
+      "lastName": "Slavkovic",
+      "email": "slavko@proton.com",
+      "phoneNumber": "066-333-121",
+      "username": "slobodan",
+      "password": "slavko123",
+      "id": 7
+    },
+    {
+      "id": 8,
+      "firstName": "Aprilette",
+      "lastName": "Yeo",
+      "email": "ayeo7@naver.com",
+      "phoneNumber": "900 152 8038",
+      "username": "ayeo7",
+      "password": "vR9)tv>M,U*"
+    },
+    {
+      "id": 9,
+      "firstName": "Alejoa",
+      "lastName": "Bruff",
+      "email": "abruff8@domainmarket.com",
+      "phoneNumber": "697 982 2092",
+      "username": "abruff8",
+      "password": "fZ8%R|wx,>?e"
+    },
+    {
+      "id": 10,
+      "firstName": "Lorant",
+      "lastName": "Friett",
+      "email": "lfriett9@tuttocitta.it",
+      "phoneNumber": "971 733 1182",
+      "username": "lfriett9",
+      "password": "eI4#j9#=|"
+    },
+    {
+      "id": 11,
+      "firstName": "Clarke",
+      "lastName": "Mewis",
+      "email": "cmewisa@sbwire.com",
+      "phoneNumber": "331 525 5105",
+      "username": "cmewisa",
+      "password": "qR0?y3.o2R3hlycy"
+    },
+    {
+      "id": 12,
+      "firstName": "Darbie",
+      "lastName": "Brickhill",
+      "email": "dbrickhillb@newyorker.com",
+      "phoneNumber": "709 659 5569",
+      "username": "dbrickhillb",
+      "password": "sF4&|$.`s3ikVZY"
+    },
+    {
+      "id": 13,
+      "firstName": "Farand",
+      "lastName": "Sarath",
+      "email": "fsarathc@histats.com",
+      "phoneNumber": "963 340 3091",
+      "username": "fsarathc",
+      "password": "iH5.)tRug=,U#G<"
+    },
+    {
+      "id": 14,
+      "firstName": "Herman",
+      "lastName": "O'Boyle",
+      "email": "hoboyled@feedburner.com",
+      "phoneNumber": "558 540 7155",
+      "username": "hoboyled",
+      "password": "vG4\\iXTsU~&gWmJN"
+    },
+    {
+      "id": 15,
+      "firstName": "Austin",
+      "lastName": "Cadlock",
+      "email": "acadlocke@elpais.com",
+      "phoneNumber": "984 339 3808",
+      "username": "acadlocke",
+      "password": "rK7!{1.N*"
+    },
+    {
+      "id": 16,
+      "firstName": "Minette",
+      "lastName": "Manuelli",
+      "email": "mmanuellif@histats.com",
+      "phoneNumber": "791 728 5671",
+      "username": "mmanuellif",
+      "password": "dK6%o0\\b4\\l"
+    },
+    {
+      "id": 17,
+      "firstName": "Phip",
+      "lastName": "MacElholm",
+      "email": "pmacelholmg@whitehouse.gov",
+      "phoneNumber": "524 671 2607",
+      "username": "pmacelholmg",
+      "password": "wN9|}\"1M<f<L$1"
+    },
+    {
+      "id": 18,
+      "firstName": "Angel",
+      "lastName": "Hadgraft",
+      "email": "ahadgrafth@tinyurl.com",
+      "phoneNumber": "780 841 5508",
+      "username": "ahadgrafth",
+      "password": "eE7|%K}Y"
+    },
+    {
+      "id": 19,
+      "firstName": "Atalanta",
+      "lastName": "Dade",
+      "email": "adadei@photobucket.com",
+      "phoneNumber": "923 345 8231",
+      "username": "adadei",
+      "password": "xP1@xU>2xA2q&gH"
+    },
+    {
+      "id": 20,
+      "firstName": "Jarret",
+      "lastName": "Lester",
+      "email": "jlesterj@gravatar.com",
+      "phoneNumber": "184 774 7184",
+      "username": "jlesterj",
+      "password": "mB5&*R}YJ5dh"
+    },
+    {
+      "firstName": "Slobodan",
+      "lastName": "Slavkovic",
+      "email": "slavko@proton.me",
+      "phoneNumber": "060-242-1421",
+      "username": "slavko",
+      "password": "slavko1234",
+      "id": 21
+    },
+    {
+      "firstName": "Ivan",
+      "lastName": "Ivanovic",
+      "email": "ivan@mailme.com",
+      "phoneNumber": "068-1102-022",
+      "username": "ivan",
+      "password": "ivan1234",
+      "id": 22
+    },
+    {
+      "firstName": "Stefan",
+      "lastName": "Stefanovic",
+      "email": "stefan@yahoo.com",
+      "phoneNumber": "062-2202-02",
+      "username": "stefan",
+      "password": "stefan123",
+      "id": 23
+    },
+    {
+      "firstName": "Stefan",
+      "lastName": "Stefanovic",
+      "email": "stefan@yahoo.com",
+      "phoneNumber": "062-2202-02",
+      "username": "stefan",
+      "password": "stefan123",
+      "id": 24
+    },
+    {
+      "firstName": "Dragutin",
+      "lastName": "Dragutinovic",
+      "email": "dragutin@yahoo.com",
+      "password": "dragutin1234567890??",
+      "id": 25
+    },
+    {
+      "firstName": "Bogdan",
+      "lastName": "Bogdanovic",
+      "email": "bogdan@outlook.com",
+      "password": "bogdan12",
+      "id": 26
+    },
+    {
+      "firstName": "Bogdan",
+      "lastName": "Bogicevic",
+      "email": "bogicevic@gmail.com",
+      "password": "bogic45",
+      "id": 27
+    },
+    {
+      "firstName": "Mirko",
+      "lastName": "Mirkovic",
+      "email": "mirko@mail.rs",
+      "password": "mirko??><",
+      "address": "Gandijeva 23",
+      "id": 28
+    },
+    {
+      "firstName": "Dragutin ",
+      "lastName": "Topalovic",
+      "address": "Limska 25",
+      "email": "top@gmail.com",
+      "phoneNumber": "062-6892-825",
+      "username": "top",
+      "password": "top@#$",
+      "id": 29
+    },
+    {
+      "firstName": "Slobodan",
+      "lastName": "Cro-Cop",
+      "address": "Slavkova 25c",
+      "email": "crocop@proton.com",
+      "phoneNumber": "062-4242-151",
+      "username": "cro-cop",
+      "password": "crop-cop$$##@@",
+      "id": 30
+    },
+    {
+      "username": "abruff888",
+      "email": "abruff8@domainmarket.comm",
+      "password": "fZ8%R|wx,>?e",
+      "id": 31
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "polo t-shirt"
+    },
+    {
+      "id": 2,
+      "name": "training pants"
+    },
+    {
+      "id": 3,
+      "name": "shorts"
+    },
+    {
+      "id": 4,
+      "name": "gloves"
+    },
+    {
+      "id": 5,
+      "name": "jackets"
+    },
+    {
+      "id": 6,
+      "name": "west"
+    },
+    {
+      "id": 7,
+      "name": "socks"
+    },
+    {
+      "id": 8,
+      "name": "t-shirt"
+    },
+    {
+      "id": 9,
+      "name": "boxer-shorts"
+    },
+    {
+      "id": 10,
+      "name": "shoes"
+    },
+    {
+      "id": 11,
+      "name": "cardigan"
+    },
+    {
+      "id": 12,
+      "name": "compression pants"
+    },
+    {
+      "id": 13,
+      "name": "hoodie"
+    },
+    {
+      "id": 14,
+      "name": "pants"
+    }
+  ],
+  "producers": [
+    {
+      "id": 1,
+      "name": "ADDIDAS"
+    },
+    {
+      "id": 2,
+      "name": "NIKE"
+    },
+    {
+      "id": 3,
+      "name": "AND1"
+    },
+    {
+      "id": 4,
+      "name": "FHS Official"
+    },
+    {
+      "id": 5,
+      "name": "BURBERRY"
+    },
+    {
+      "id": 6,
+      "name": "UNDER ARMOUR"
+    },
+    {
+      "id": 7,
+      "name": "GUCCI"
+    },
+    {
+      "id": 8,
+      "name": "PRADA"
+    },
+    {
+      "id": 9,
+      "name": "VERSACE"
+    },
+    {
+      "id": 10,
+      "name": "ARMANI"
+    },
+    {
+      "id": 11,
+      "name": "DOLCE & GABBANA"
+    },
+    {
+      "id": 12,
+      "name": "RALPH LAUREN"
+    },
+    {
+      "id": 13,
+      "name": "TOMMY HILFIGER"
+    },
+    {
+      "id": 14,
+      "name": "CALVIN KLEIN"
+    },
+    {
+      "id": 15,
+      "name": "LOUIS VUITTON"
+    },
+    {
+      "id": 16,
+      "name": "CHANEL"
+    }
+  ],
+  "clothes": [
+    {
+      "id": 1,
+      "title": "ADICOLOR CLASSICS 3-STRIPES POLO SHIRT",
+      "size": "2XL",
+      "description": "Paste Your Textrefresh, Your Everyday Wardrobe With This Versatile Adicolor, Polo Shirt. Crafted From A Soft Cotton Fabric, This Comfortable Piece Is Perfect For A Day At The Park Or An Evening Out To Dinner. 3-stripes Down The Arms And A Classic Trefoil Logo Add The Brand's Signature Touch. Contrast Details On The Collar And Sleeves Reinvent The Vintage Style. We Partner With Better Cotton To Improve Cotton Farming Globally. Better Cotton Makes Global Cotton Production Better For The People Who Produce It, Better For The Environment It Grows In, And Better For The Sector's Future. Better Cotton Is Sourced Via A Chain Of Custody Model Called Mass Balance. This Means That Better Cotton Is Not Physically Traceable To End Products, However, Better Cotton Farmers Benefit From The Demand For Better Cotton In Equivalent Volumes To Those We source.",
+      "category": {
+        "id": 1,
+        "name": "polo t-shirt"
+      },
+      "producer": {
+        "id": 1,
+        "name": "ADDIDAS"
+      },
+      "productionDate": "07.06.2022",
+      "featured": "false",
+      "viewsCount": "55",
+      "purchaseCount": "253",
+      "image": "../assets/images/1.jpg",
+      "price": "41"
+    },
+    {
+      "id": 2,
+      "title": "TIRO 24 TRAINING PANTS",
+      "size": "L",
+      "description": "Take your training up a notch in these track pants from adidas. Built to keep you comfortable and focused during intensive drills, they're made from durable doubleknit fabric. Moisture-wicking AEROREADY keeps your legs dry for distraction-free soccer. Zip pockets secure essentials, leaving you to concentrate on improving your game.This product is made with 100% recycled materials. By reusing materials that have already been created, we help to reduce waste and our reliance on finite resources and reduce the footprint of the products we make.",
+      "category": {
+        "id": 2,
+        "name": "training pants"
+      },
+      "producer": {
+        "id": 1,
+        "name": "ADDIDAS"
+      },
+      "productionDate": "21.12.2023",
+      "featured": "false",
+      "viewsCount": "55",
+      "purchaseCount": "253",
+      "image": "../assets/images/2.jpg",
+      "price": "50"
+    },
+    {
+      "id": 3,
+      "title": "PRIMEBLUE DESIGNED TO MOVE SPORT 3-STRIPES SHORTS",
+      "size": "M",
+      "description": "Take your training up a notch in these track pants from adidas. Built to keep you comfortable and focused during intensive drills, they're made from durable doubleknit fabric. Moisture-wicking AEROREADY keeps your legs dry for distraction-free soccer. Zip pockets secure essentials, leaving you to concentrate on improving your game.This product is made with 100% recycled materials. By reusing materials that have already been created, we help to reduce waste and our reliance on finite resources and reduce the footprint of the products we make.",
+      "category": {
+        "id": 2,
+        "name": "training pants"
+      },
+      "producer": {
+        "id": 1,
+        "name": "ADDIDAS"
+      },
+      "productionDate": "01.05.2022",
+      "featured": "true",
+      "viewsCount": "71",
+      "purchaseCount": "33",
+      "image": "../assets/images/3.jpg",
+      "price": "36"
+    },
+    {
+      "id": 4,
+      "title": "SAMBA OG SHOES KIDS",
+      "size": "38",
+      "description": "If you time traveled back to the 1960s, you'd find pro soccer players wearing adidas Sambas just like these kids' shoes. Well, almost just like them. Refreshed for the next generation, they feature a soft sockliner that feels comfortable through all-day play. A leather upper, gum rubber sole, and 3-Stripes stay classic.",
+      "category": {
+        "id": 10,
+        "name": "shoes"
+      },
+      "producer": {
+        "id": 1,
+        "name": "ADDIDAS"
+      },
+      "productionDate": "25.09.2023",
+      "featured": "true",
+      "viewsCount": "71",
+      "purchaseCount": "33",
+      "image": "../assets/images/4.jpg",
+      "price": "70"
+    },
+    {
+      "id": 5,
+      "title": "PREDATOR MATCH FINGERSAVE GOALKEEPER GLOVES KIDS",
+      "size": "7",
+      "description": "Stop shots in their tracks in adidas goalkeeper gloves designed to dominate. These juniors' Predator Match soccer gloves fit securely with a half-wrap wrist strap. Soft Grip Pro latex in the palm offers cushioning, grip and durability in all weathers. Fingersave spines reinforce the fingers, adding security to every catch and throw.",
+      "category": {
+        "id": 4,
+        "name": "gloves"
+      },
+      "producer": {
+        "id": 1,
+        "name": "ADDIDAS"
+      },
+      "productionDate": "08.02.2023",
+      "featured": "false",
+      "viewsCount": "33",
+      "purchaseCount": "12",
+      "image": "../assets/images/5.jpg",
+      "price": "40"
+    },
+    {
+      "id": 6,
+      "title": "Nike Windrunner PrimaLoft",
+      "size": "XXS",
+      "description": "Rock the iconic look of the Windrunner while you brave the cold in this toasty hooded jacket. It takes the classic puffer look and backs it up with the insulating power of PrimaLoft® Thermoplume insulation. Nike Storm-FIT technology resists elements like wind and water to help keep you comfortable in harsh weather conditions. A relaxed fit gives you some room to layer up underneath for those extra chilly days.",
+      "category": {
+        "id": 5,
+        "name": "jackets"
+      },
+      "producer": {
+        "id": 2,
+        "name": "NIKE"
+      },
+      "productionDate": "19.09.2023",
+      "featured": "true",
+      "viewsCount": "88",
+      "purchaseCount": "23",
+      "image": "../assets/images/6.jpg",
+      "price": "148.97"
+    },
+    {
+      "id": 7,
+      "title": "Nike Therma-FIT Repel",
+      "size": "M",
+      "description": "From chilly 7 a.m. tee times to an unexpected drizzle mid-round, we realize conditions can fluctuate on the course. Our Therma-FIT ADV Repel vest fills the need when the weather won't cooperate. It repels water with plenty of stretch in the back panel so you can confidently move, rotate and swing. Goose down insulation is strategically placed to keep you warm all day long.",
+      "category": {
+        "id": 6,
+        "name": "west"
+      },
+      "producer": {
+        "id": 2,
+        "name": "NIKE"
+      },
+      "productionDate": "29.04.2022",
+      "featured": "false",
+      "viewsCount": "34",
+      "purchaseCount": "9",
+      "image": "../assets/images/7.jpg",
+      "price": "170.97"
+    },
+    {
+      "id": 8,
+      "title": "Nike Everyday Plus",
+      "size": "XL",
+      "description": "From chilly 7 a.m. tee times to an unexpected drizzle mid-round, we realize conditions can fluctuate on the course. Our Therma-FIT ADV Repel vest fills the need when the weather won't cooperate. It repels water with plenty of stretch in the back panel so you can confidently move, rotate and swing. Goose down insulation is strategically placed to keep you warm all day long.",
+      "category": {
+        "id": 7,
+        "name": "socks"
+      },
+      "producer": {
+        "id": 2,
+        "name": "NIKE"
+      },
+      "productionDate": "29.04.2022",
+      "featured": "false",
+      "viewsCount": "505",
+      "purchaseCount": "414",
+      "image": "../assets/images/8.jpg",
+      "price": "22"
+    },
+    {
+      "id": 9,
+      "title": "Nike Football",
+      "size": "L",
+      "description": "For some of us, it's more than a game. Show everyone what it means to you in this classic Nike football tee.",
+      "category": {
+        "id": 8,
+        "name": "t-shirt"
+      },
+      "producer": {
+        "id": 2,
+        "name": "NIKE"
+      },
+      "productionDate": "29.04.2022",
+      "featured": "true",
+      "viewsCount": "205",
+      "purchaseCount": "115",
+      "image": "../assets/images/9.jpg",
+      "price": "15.97"
+    },
+    {
+      "id": 10,
+      "title": "PSD Men's AND1 Boxer Briefs",
+      "size": "XXL",
+      "description": "It's time to upgrade your streetwear from head to toe, starting with the freshest basics in your wardrobe - shop the iconic AND1 X PSD underwear collection. Designed for men who refuse to settle for basic, our men's boxer briefs are all about pushing boundaries and making a bold statement. Our AND1 boxer briefs are the perfect fusion of comfort, style, and attitude, featuring our latest graphic designs and our heritage trash talk quotes. Crafted with premium soft fabrics, these boxers are ready to handle your everyday hustle, while keeping you looking fly. Whether you're hitting the courts, chilling with friends, or slaying the urban scene, AND1's street apparel and underwear will have you standing out in a crowd and feeling comfortable too. So get ready to level up your fashion game, because with AND1, you'll dominate the streets with swag and style that's on a whole new level.",
+      "category": {
+        "id": 9,
+        "name": "boxer-shorts"
+      },
+      "producer": {
+        "id": 3,
+        "name": "AND1"
+      },
+      "productionDate": "13.06.2023",
+      "featured": "true",
+      "viewsCount": "95",
+      "purchaseCount": "89",
+      "image": "../assets/images/10.jpg",
+      "price": "26"
+    },
+    {
+      "id": 11,
+      "title": "Elegant Horse Bit Buckle Moccasin",
+      "size": "45",
+      "description": "This winter season, style in elegance and luxury with our men's buckle moccasin shoes. These ultimate casual moccasins are designed to give you the most comfortable walk throughout the day from attending business meetings to casually going out. Our men's moccasin shoe collection has been created using premium quality leather that makes all our footwear durable, reliable, and comfortable. You can pair these elegant brown leather moccasins with our formal-wear shirts along with formal rousers, and make the most out of every event you walk in to.",
+      "category": {
+        "id": 10,
+        "name": "shoes"
+      },
+      "producer": {
+        "id": 4,
+        "name": "FHS Official"
+      },
+      "productionDate": "05.08.2023",
+      "featured": "true",
+      "viewsCount": "250",
+      "purchaseCount": "190",
+      "image": "../assets/images/11.jpg",
+      "price": "175"
+    },
+    {
+      "id": 12,
+      "title": "Revel Low",
+      "size": "39",
+      "description": "This is the basketball shoe that's about to take your street game to the next level and beyond. Designed for the fearless baller in you, this low-top bad boy means serious business on the court.",
+      "category": {
+        "id": 10,
+        "name": "shoes"
+      },
+      "producer": {
+        "id": 3,
+        "name": "AND1"
+      },
+      "productionDate": "30.03.2023",
+      "featured": "true",
+      "viewsCount": "45",
+      "purchaseCount": "32",
+      "image": "../assets/images/12.jpg",
+      "price": "59"
+    },
+    {
+      "id": 13,
+      "title": "Linen Cotton Cardigan",
+      "size": "s",
+      "description": "A lightweight cardigan knitted in linen cotton with raglan sleeves. The style is embroidered with the Equestrian Knight Design.",
+      "category": {
+        "id": 11,
+        "name": "cardigan"
+      },
+      "producer": {
+        "id": 5,
+        "name": "BURBERRY"
+      },
+      "productionDate": "22.06.2023",
+      "featured": "true",
+      "viewsCount": "3500",
+      "purchaseCount": "1098",
+      "image": "../assets/images/13.jpg",
+      "price": "59"
+    },
+    {
+      "id": 14,
+      "title": "Check Cotton Blend Socks",
+      "size": "48-49",
+      "description": "A lightweight cardigan knitted in linen cotton with raglan sleeves. The style is embroidered with the Equestrian Knight Design.",
+      "category": {
+        "id": 11,
+        "name": "socks"
+      },
+      "producer": {
+        "id": 5,
+        "name": "BURBERRY"
+      },
+      "productionDate": "06.10.2022",
+      "featured": "true",
+      "viewsCount": "734",
+      "purchaseCount": "238",
+      "image": "../assets/images/14.jpg",
+      "price": "121.40"
+    },
+    {
+      "id": 15,
+      "title": "Women's UA Summit Trek Shoes",
+      "size": "40",
+      "description": "The UA Summit Trek strikes the perfect balance between performance and style with a bold design and durable materials, so you can hit the trails or the city streets.",
+      "category": {
+        "id": 10,
+        "name": "shoes"
+      },
+      "producer": {
+        "id": 6,
+        "name": "UNDER ARMOUR"
+      },
+      "productionDate": "06.10.2022",
+      "featured": "true",
+      "viewsCount": "734",
+      "purchaseCount": "238",
+      "image": "../assets/images/15.jpg",
+      "price": "121.40"
+    },
+    {
+      "id": 16,
+      "title": "Men's HeatGear Leggings",
+      "size": "L",
+      "description": "HeatGear Armour is our original performance baselayer—the one you put on first and take off last. So we made it extra comfortable by wicking sweat and stretching so you can move no matter what.",
+      "category": {
+        "id": 12,
+        "name": "compression pants"
+      },
+      "producer": {
+        "id": 6,
+        "name": "UNDER ARMOUR"
+      },
+      "productionDate": "10.03.2023",
+      "featured": "false",
+      "viewsCount": "203",
+      "purchaseCount": "57",
+      "image": "../assets/images/16.jpg",
+      "price": "25"
+    },
+    {
+      "id": 17,
+      "title": "Men's UA Tech Polo",
+      "size": "M",
+      "description": "UA Tech is our original go-to training gear: Under Armour men's Tech polos are loose, light, and keep you cool. Basically, they're built to be everything you need.",
+      "category": {
+        "id": 1,
+        "name": "polo t-shirt"
+      },
+      "producer": {
+        "id": 6,
+        "name": "UNDER ARMOUR"
+      },
+      "productionDate": "",
+      "featured": "false",
+      "viewsCount": "430",
+      "purchaseCount": "201",
+      "image": "../assets/images/17.jpg",
+      "price": "45"
+    },
+    {
+      "id": 18,
+      "title": "Men's UA Rival Fleece Pants",
+      "size": "M",
+      "description": "This gear keeps you warmed up and ready for pretty much everything you do—it's light, comfy, and super-soft on the inside.",
+      "category": {
+        "id": 1,
+        "name": "pants"
+      },
+      "producer": {
+        "id": 6,
+        "name": "UNDER ARMOUR"
+      },
+      "productionDate": "05.08.2023",
+      "featured": "true",
+      "viewsCount": "890",
+      "purchaseCount": "753",
+      "image": "../assets/images/18.jpg",
+      "price": "45"
+    },
+    {
+      "id": 19,
+      "title": "Men's UA Rival Terry Short Sleeve Hoodie",
+      "size": "L",
+      "description": "If you want to stay comfy, warmed-up, and ready before the game—or after—this is what you wear. We call it Rival Terry. You can just call it your new favorite.",
+      "category": {
+        "id": 13,
+        "name": "hoodie"
+      },
+      "producer": {
+        "id": 6,
+        "name": "UNDER ARMOUR"
+      },
+      "productionDate": "19.09.2023",
+      "featured": "true",
+      "viewsCount": "403",
+      "purchaseCount": "205",
+      "image": "../assets/images/19.jpg",
+      "price": "55"
+    },
+    {
+      "id": 20,
+      "title": "ADICOLOR FIREBIRD LOOSE TRACK PANTS",
+      "size": "S",
+      "description": "Represent the adidas Originals lifestyle in all its authentic glory. These iconic Firebird track pants are built for comfort, movement and long-term wear, thanks to their super-soft tricot build. 3-Stripes down the legs and an embroidered Trefoil logo add an unmistakable heritage flavor. Casually confident and classically cool, these relaxed pants are a must-have in any wardrobe.",
+      "category": {
+        "id": 14,
+        "name": "pants"
+      },
+      "producer": {
+        "id": 2,
+        "name": "NIKE"
+      },
+      "productionDate": "19.09.2023",
+      "featured": "true",
+      "viewsCount": "403",
+      "purchaseCount": "205",
+      "image": "../assets/images/20.jpg",
+      "price": "70"
+    }
+  ],
+  "reviews": [
+    {
+      "id": 1,
+      "title": "Great Product",
+      "content": "Fit is perfect. It is lightweight and made well. Purchased another colored one as well. Would buy again.",
+      "rating": 5,
+      "createdAt": "March 22, 2020",
+      "clothesId": 20,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 2,
+      "title": "Excellent warmup or workout option",
+      "content": "This short sleeve hoodie was perfect for my needs. It is lightweight, and good as a warmup shirt for working out or lounging. Soft material. Glad to get it on sale.",
+      "rating": 5,
+      "createdAt": "September 17, 2019",
+      "clothesId": 20,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 3,
+      "title": "Comfortable workout shirt",
+      "content": "Bought this for working out at the gym. Shirt is very comfortable for working out and absorbs moisture very well.",
+      "rating": 5,
+      "createdAt": "October 26, 2022",
+      "clothesId": 20,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 4,
+      "title": "Great price on a quality item",
+      "content": "These are high quality pants. Easy stretch, great fit and very durable. And at the sale price a great buy.",
+      "rating": 5,
+      "createdAt": "August 26, 2022",
+      "clothesId": 19,
+      "user": {
+        "id": 4,
+        "firstName": "Petar",
+        "lastName": "Petrovic",
+        "email": "ppetar@mail.pe",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "qwerty1234"
+      }
+    },
+    {
+      "id": 5,
+      "title": "My Favorite Pants",
+      "content": "These pants are awesome. Truly my favorite for everyday wear and working out. They are comfortable and warm without being too hot. The pockets are great and the zippers are great for keeping everything secure. I also like the jogger style cuffs on the bottom, so I do not need to hem these to fit me.",
+      "rating": 3,
+      "createdAt": "February 15, 2023",
+      "clothesId": 19,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 6,
+      "title": "Super comfortable",
+      "content": "High end enough to look professional but also casual at the same time . Fabric is really soft and holds up well to washing.",
+      "rating": 4,
+      "createdAt": "May 02, 2023",
+      "clothesId": 19,
+      "user": {
+        "id": 1,
+        "firstName": "Nikola",
+        "lastName": "Strugarevic",
+        "email": "nikolas@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkj3lkjsd875lgj"
+      }
+    },
+    {
+      "id": 7,
+      "title": "Disappointed about the gut Design Shoes!",
+      "content": "The shoes have good Design but not comfortable. The Backside makes too much friction on the skin, which causes problems and injury!",
+      "rating": 2,
+      "createdAt": "March 22, 2024",
+      "clothesId": 4,
+      "user": {
+        "id": 1,
+        "firstName": "Nikola",
+        "lastName": "Strugarevic",
+        "email": "nikolas@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkj3lkjsd875lgj"
+      }
+    },
+    {
+      "id": 8,
+      "title": "Fits great",
+      "content": "Great color, and great design I just bought for son 6 years old",
+      "rating": 5,
+      "createdAt": "March 22, 2024",
+      "clothesId": 4,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 9,
+      "title": "No comment",
+      "content": "Good quality , nice colors and fit very well , definitely I'll recommend",
+      "rating": 5,
+      "createdAt": "March 19, 2024",
+      "clothesId": 4,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 10,
+      "title": "Comfortable, sleek footwear",
+      "content": "Great sleek footwear, colour combination means they go with lots of different outfits. Very comfortable - sizing is perfect. They were out of stock in the size I wanted but received a notification they were back in stock within a couple of days and delivery was really prompt too.",
+      "rating": 4,
+      "createdAt": "March 11, 2024",
+      "clothesId": 4,
+      "user": {
+        "id": 4,
+        "firstName": "Petar",
+        "lastName": "Petrovic",
+        "email": "ppetar@mail.pe",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "qwerty1234"
+      }
+    },
+    {
+      "id": 11,
+      "title": "Awesome stuff!",
+      "content": "The best purchase decision I've made recently.",
+      "rating": 5,
+      "createdAt": "20.02.2024",
+      "clothesId": 11,
+      "user": {
+        "id": 4,
+        "firstName": "Petar",
+        "lastName": "Petrovic",
+        "email": "ppetar@mail.pe",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "qwerty1234"
+      }
+    },
+    {
+      "id": 12,
+      "title": "Good shoe",
+      "content": "Like the quality, stuff, fitting and the design.",
+      "rating": 4,
+      "createdAt": "20.02.2024",
+      "clothesId": 11,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 13,
+      "title": "Super warm with great colour combo.",
+      "content": "I have 3 Classic Wind Runner Jackets, liked to look of this albeit I won't be running in this! Simply a super warm coat for cold days. The fit is good but with all the insulation looks huge! I'm 5ft 9 and went for the large, rather than the medium as thought it would be a slightly more generous fit.",
+      "rating": 4.5,
+      "createdAt": "03.05.2024",
+      "clothesId": 6,
+      "user": {
+        "id": 1,
+        "firstName": "Nikola",
+        "lastName": "Strugarevic",
+        "email": "nikolas@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkj3lkjsd875lgj"
+      }
+    },
+    {
+      "id": 14,
+      "title": "Unsatisfied customer",
+      "content": "I love the jacket I got it in “Black” it fits perfect I'm 6'1 and 225lbs I got the X-Large and the only thing is that it's not black it's like a gray color. I wish I would have known and wold have bought the blue one. That's why I can only give it a 1 star.",
+      "rating": 1,
+      "createdAt": "01.08.2024",
+      "clothesId": 6,
+      "user": {
+        "id": 4,
+        "firstName": "Petar",
+        "lastName": "Petrovic",
+        "email": "ppetar@mail.pe",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "qwerty1234"
+      }
+    },
+    {
+      "id": 15,
+      "title": "Non-Durable Socks",
+      "content": "They're not very durable. After one wash, two of the pairs of socks started to rip and break down.",
+      "rating": 2,
+      "createdAt": "02.29.2024",
+      "clothesId": 8,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 16,
+      "title": "Wore out within two months",
+      "content": "I wore these after getting them for Christmas. They didn't even make it two months without wearing out a hole in the foot. I might as wrll buy cheap socks with that kind of durability. My puma socks from a member warehouse have lasted two years.",
+      "rating": 1,
+      "createdAt": "02.24.2024",
+      "clothesId": 8,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 17,
+      "title": "Fresh and comfortable",
+      "content": "Needed a low top for my e-moto. Basketball shoes have such a firm soul. AND1 is a great shoe for the price. First pair I bought during Covid. I will always have a pair of AND1 now. Purchased this online. I loved the color. Had to have them. The price was beyond right. You get what you pay for and it’s worth every penny spent. Can’t wait to get somRead more about review stating Fresh and comfortablee other models and colors back in stock. My only complaint with this company. My size is always sold out :) 11.5 is a popular size I get it. I Just have to be quicker.",
+      "rating": 5,
+      "createdAt": "08.17.2023",
+      "clothesId": 12,
+      "user": {
+        "id": 5,
+        "firstName": "Adrijan",
+        "lastName": "Adrijanovic",
+        "email": "adri40@outlook.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "1234"
+      }
+    },
+    {
+      "id": 18,
+      "title": "Simply a good shoe!",
+      "content": "I love everything about the shoe and before the shoe gets discontinued I am about to order another pair!!!",
+      "rating": 5,
+      "createdAt": "09.10.2023",
+      "clothesId": 12,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 19,
+      "title": "I like them they look",
+      "content": "I like them they look awesome",
+      "rating": 5,
+      "createdAt": "10.28.2023",
+      "clothesId": 12,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 20,
+      "title": "",
+      "content": "Love this jacket. Amazing quality really thick and cosy and lovely on the eye goes with everything. Bought for my 11 yo who is at high school and she loves it.",
+      "rating": 5,
+      "createdAt": "08.24.2023",
+      "clothesId": 7,
+      "user": {
+        "id": 2,
+        "firstName": "Goran",
+        "lastName": "Draskovic",
+        "email": "gorand@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "lkjg93289lk"
+      }
+    },
+    {
+      "id": 21,
+      "title": "Excellent",
+      "content": "Excellent quality. Bought for my son of 12 years old that one in size L. Perfect fit and he loved it. Very comfortable and super warm.",
+      "rating": 5,
+      "createdAt": "08.02.2023",
+      "clothesId": 7,
+      "user": {
+        "id": 1,
+        "firstName": "Nikola",
+        "lastName": "Strugarevic",
+        "email": "nikolas@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkj3lkjsd875lgj"
+      }
+    },
+    {
+      "id": 22,
+      "title": "Value!",
+      "content": "Good buy and value for the money.",
+      "rating": 5,
+      "createdAt": "12.12.2023",
+      "clothesId": 9,
+      "user": {
+        "id": 1,
+        "firstName": "Nikola",
+        "lastName": "Strugarevic",
+        "email": "nikolas@gmail.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkj3lkjsd875lgj"
+      }
+    },
+    {
+      "id": 23,
+      "title": "Great buy",
+      "content": "Awesome dri fit shirt. Great color and style. Would highly recommend for young man.",
+      "rating": 5,
+      "createdAt": "08.09.2023",
+      "clothesId": 9,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 24,
+      "title": "Simply a good shoe!",
+      "content": "I love everything about the shoe and before the shoe gets discontinued I am about to order another pair!!!",
+      "rating": 5,
+      "createdAt": "09.10.2023",
+      "clothesId": 13,
+      "user": {
+        "id": 3,
+        "firstName": "Dragan",
+        "lastName": "Stojanovic",
+        "email": "drago@yahoo.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "slkjg9832klg"
+      }
+    },
+    {
+      "id": 25,
+      "title": "Very cool",
+      "content": "The fit and style is good when wearing it. ……………..",
+      "rating": 4,
+      "createdAt": "01.11.2024",
+      "clothesId": 1,
+      "user": {
+        "id": 4,
+        "firstName": "Petar",
+        "lastName": "Petrovic",
+        "email": "ppetar@mail.pe",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "qwerty1234"
+      }
+    },
+    {
+      "id": 26,
+      "title": "Soft and breathable",
+      "content": "Soft material which is perfect for comfortable everyday wear. Good quality stitching as well",
+      "rating": 4,
+      "createdAt": "11.22.2023",
+      "clothesId": 1,
+      "user": {
+        "id": 5,
+        "firstName": "Adrijan",
+        "lastName": "Adrijanovic",
+        "email": "adri40@outlook.com",
+        "phoneNumber": "065/532-34-13",
+        "address": "Vojvode Supljikca 27a",
+        "username": "nikola123",
+        "password": "1234"
+      }
+    }
+  ],
+  "login": [
+    {
+      "username": "mirko32",
+      "email": "mirko@mailme.com",
+      "password": "mdn",
+      "id": 1
+    },
+    {
+      "username": "nikola123",
+      "email": "gorand@gmail.com",
+      "password": "lkjg93289lk",
+      "id": 2
+    },
+    {
+      "email": "slobodan",
+      "password": "slavko123",
+      "id": 3
+    },
+    {
+      "email": "slobodan",
+      "password": "slavko123",
+      "id": 4
+    },
+    {
+      "email": "slobodan",
+      "password": "slavko123",
+      "id": 5
+    },
+    {
+      "email": "nikola123",
+      "password": "1234",
+      "id": 6
+    },
+    {
+      "email": "nikola123",
+      "password": "1234",
+      "id": 7
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 8
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 9
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 10
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 11
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 12
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 13
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 14
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 15
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 16
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 17
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 18
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 19
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 20
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 21
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 22
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 23
+    },
+    {
+      "email": "abruff8",
+      "password": "fZ8%R|wx,>?e",
+      "id": 24
+    },
+    {
+      "email": "nikola123",
+      "password": "slkjg9832klg",
+      "id": 25
+    },
+    {
+      "email": "nikola123",
+      "password": "slkjg9832klg",
+      "id": 26
+    },
+    {
+      "email": "top",
+      "password": "top@#$",
+      "id": 27
+    },
+    {
+      "email": "nikola123",
+      "password": "1234",
+      "id": 28
+    },
+    {
+      "email": "nikola123",
+      "password": "1234",
+      "id": 29
+    },
+    {
+      "email": "nikola123",
+      "password": "qwerty1234",
+      "id": 30
+    },
+    {
+      "email": "nikola123",
+      "password": "qwerty1234",
+      "id": 31
+    },
+    {
+      "email": "nikola123",
+      "password": "qwerty1234",
+      "id": 32
+    },
+    {
+      "username": "nikola123",
+      "email": "ppetar@mail.pe",
+      "password": "qwerty1234",
+      "id": 33
+    },
+    {
+      "username": "cro-cop",
+      "email": "crocop@proton.com",
+      "password": "crop-cop$$##@@",
+      "id": 34
+    }
+  ]
+}

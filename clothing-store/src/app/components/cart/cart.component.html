@@ -1,0 +1,71 @@
+<div class="container-fluid container-xxl px-4 py-5 mb-5">
+  <h2 class="mb-4">Shopping cart</h2>
+  <table class="table table-bordered table-striped">
+    <thead>
+      <tr>
+        <th scope="col" class="text-center">
+          #
+        </th>
+        <th scope="col">
+          Book title
+        </th>
+        <th scope="col" class="text-center">
+          Price
+        </th>
+        <th scope="col" class="text-center">
+          Quantity
+        </th>
+        <th scope="col" class="text-center">
+          Total
+        </th>
+        <th scope="col" valign="middle" class="text-center">
+          <span class="link link-danger fw-normal" (click)="clearCart(items)" type="button">
+            Clear All
+          </span>
+        </th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr *ngFor="let item of items; let i = index;">
+        <th scope="row">{{ i + 1 }}</th>
+        <td>
+          <img src="{{item.clothingItem.image}}" class="d-inline-block" height="80">
+          {{ item.clothingItem.title }}
+        </td>
+        <td valign="middle" class="text-center">
+          {{ item.clothingItem.price}}
+        </td>
+        <td valign="middle" class="text-center">
+          <input [(ngModel)]="item.quantity" [ngModelOptions]="{standalone: true}" min="1" type="number"
+            value="{{ item.quantity }}" name="" class="form-control d-inline-block" (change)="changeSubtotal(item ,i)"
+            style="max-width: 80px;" />
+        </td>
+        <td valign="middle" class="text-center">
+          <span #subTotalWrap>
+            {{ item.quantity*item.clothingItem.price | number:'1.2-2' }} {{ item.clothingItem.currency }}
+          </span>
+        </td>
+        <td valign="middle" class="text-center">
+          <button class="btn btn-danger" (click)="removeFromCart(item)">
+            <i class="bi bi-trash lead"></i>
+          </button>
+        </td>
+      </tr>
+
+      <tr>
+        <td colspan="6" valign="middle" class="text-end p-3">
+          <span class="lead d-inline-block mb-2">Order Total: <span class="fw-bold px-2">{{ totalWithCurrency
+              }}</span></span><br />
+          <button *ngIf="currentUser; else cartAuthMessage;" class="btn btn-lg btn-secondary py-2 px-4">
+            <i class="bi bi-cart-check me-1"></i>
+            Proceed to checkout
+          </button>
+
+          <ng-template #cartAuthMessage>
+            <span>Please Log in to proceed to checkout</span>
+          </ng-template>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+</div>

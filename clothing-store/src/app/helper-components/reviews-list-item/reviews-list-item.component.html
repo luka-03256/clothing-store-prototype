@@ -1,0 +1,29 @@
+<div class="d-block text-decoration-none text-dark py-2">
+    <div class="rating-stars mb-2">
+        <span class="me-1" *ngFor="let item of [].constructor(5); let i = index">
+            <i *ngIf="i+1 <= review.rating" class="bi bi-star-fill text-warning fs-5"></i>
+            <i *ngIf="i+1 > review.rating" class="bi bi-star text-warning fs-5"></i>
+        </span>
+    </div>
+
+    <h6 class="mb-1 list-item-title fw-normal overflow-hidden fs-5">
+        {{review.title}}
+    </h6>
+    <small class="d-block text-muted mb-3 fs-7">
+        Reviewed by {{review.user.firstName}} {{review.user.lastName}} on {{review.createdAt}}
+    </small>
+
+    <p *ngIf="review.content.length <= 240; else truncatedContent" class="fw-light">
+        {{review.content}}
+    </p>
+    <ng-template #truncatedContent>
+        <p class="fw-light">
+            {{review.content.substring(0,240)}}
+            <a href="#show-more" class="text-primary d-inline-block" (click)="openReviewModal($event, reviewModalContent)">Show more</a>
+        </p>
+    </ng-template>
+</div>
+
+<ng-template #reviewModalContent let-modal>
+    <app-review-modal-content [review]="review"></app-review-modal-content>
+</ng-template>

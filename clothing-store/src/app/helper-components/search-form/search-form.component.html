@@ -1,0 +1,14 @@
+<div id="search-form">
+  <input #searchBox (keydown.enter)="handleKeydownEnterSubmit($event)" (input)="search(searchBox.value)" id="search-box"
+    class="form-control" type="search" placeholder="Search clothes..." value="{{term}}" autocomplete="off" />
+
+  <ul #searchResults id="search-results" class="list-group">
+    <li class="list-group-item d-flex justify-content-between align-items-center p-0"
+      *ngFor="let clothingItem of clothes$ | async">
+      <a routerLink="clothes/{{clothingItem.id}}" class="d-block p-2 w-100" (click)="handleOnSearchResultClick()">
+        <img src="{{clothingItem.image}}" height="50">
+        {{clothingItem.title}}
+      </a>
+    </li>
+  </ul>
+</div>

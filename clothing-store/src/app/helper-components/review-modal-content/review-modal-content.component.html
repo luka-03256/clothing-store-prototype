@@ -1,0 +1,23 @@
+<div class="modal-header border-0 rouned-top">
+    <!--aria-label provides an accessible name when no visible label exists in DOM; usage for element including links, videos, form controls-->
+    <button type="button" class="btn-close" aria-label="Close" (click)="reviewModalDismiss()"></button>
+</div>
+<div class="modal-body px-4 pb-5 rounded-bottom overflow-hidden">
+    <div class="rating-stars mb-2">
+        <span class="me-1" *ngFor="let item of [].constructor(5); let i = index">
+            <i *ngIf="i+1 <= review.rating" class="bi bi-star-fill text-warning fs-4"></i>
+            <i *ngIf="i+1 > review.rating" class="bi bi-star text-warning fs-4"></i>
+        </span>
+    </div>
+    <h6 class="mb-1 list-item-title fw-normal overflow-hidden fs-4">
+        {{review.title}}
+    </h6>
+
+    <small class="d-block text-muted mb-3 fs-6">
+        Reviewed by {{review.user.firstName}} {{review.user.lastName}} on {{review.createdAt}}
+    </small>
+
+    <p class="fw-light">
+        {{review.content}}
+    </p>
+</div>

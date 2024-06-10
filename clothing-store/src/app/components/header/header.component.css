@@ -1,0 +1,23 @@
+.header-user-nav {
+    padding-right: 35px;
+    position: relative;
+  }
+  
+  .cart-nav {
+    position: absolute;
+    right: 0px;
+    top: 0px;
+  }
+  
+  .cart-nav .badge {
+    font-size: 13px;
+  }
+
+.bg-gray {
+  background-color: #918c8c;
+}
+
+
+/* .outline-gray {
+  color: #d11a1a !important;
+} */

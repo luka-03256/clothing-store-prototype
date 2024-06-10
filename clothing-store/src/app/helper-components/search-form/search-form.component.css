@@ -1,0 +1,43 @@
+/* #search-form {
+    position: relative;
+  
+    input#search-box {
+      height: 50px;
+      padding-right: 60px;
+  
+      &:focus {
+        outline: 0;
+        border: 0;
+      }
+    }
+  
+    button#search-button {
+      position: absolute;
+      top: 0;
+      right: 0;
+      height: 50px;
+      width: 60px;
+    }
+  
+    ul#search-results {
+      margin-top: 0;
+      padding-left: 0;
+      position: absolute;
+      left: 0;
+      top: 100%;
+      z-index: 4;
+      width: calc(100% - 60px);
+      margin-top: 1px;
+  
+      li a {
+        color: #888;
+        display: block;
+        text-decoration: none;
+  
+        &:hover {
+          background-color: #f8f9fa;
+        }
+      }
+    }
+  }
+   */

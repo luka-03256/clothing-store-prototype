@@ -1,0 +1,33 @@
+<div id="search-results-page">
+    <div class="container-fluid container-xxl">
+      <div id="search-results-clothes">
+        <div class="row">
+          <div class="col-12 col-lg-2 col-md-3">
+            <app-filters-sidebar></app-filters-sidebar>
+          </div>
+          <div class="col-12 col-lg-10 col-md-9 pt-0 pt-md-5 pb-5">
+            <div *ngIf="clothes.length > 0; else noResultsFound">
+              <app-clothes-list [clothes]="clothes"></app-clothes-list>
+            </div>
+  
+            <ng-template #noResultsFound>
+              <div id="search-no-results-page" class="d-flex align-items-center justify-content-center py-5">
+                <div class="text-center">
+                  <h1 class="display-1 fw-bold">Opps!</h1>
+                  <p class="fs-3 text-danger">
+                    No results found.
+                  </p>
+                  <p class="lead">
+                    We couldn't find particullar term you searched for.
+                    <br/>
+                    Try searching again.
+                  </p>
+                </div>
+              </div>
+            </ng-template>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  

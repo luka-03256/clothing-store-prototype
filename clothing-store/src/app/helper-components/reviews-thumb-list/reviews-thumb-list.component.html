@@ -1,0 +1,7 @@
+<div class="container-fluid container-xxl my-4">
+    <div class="row">
+        <div *ngFor="let review of reviews; let i = index;" class="col-12 col-lg-6 my-3">
+            <app-reviews-thumb-list-item [review]="review"></app-reviews-thumb-list-item>
+        </div>
+    </div>
+</div>

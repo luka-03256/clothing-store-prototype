@@ -1,0 +1,94 @@
+<div class="border-bottom">
+  <nav class="py-1 bg-gray border-bottom">
+    <div class="container-fluid container-xxl d-flex flex-wrap">
+      <ul class="nav ms-auto me-auto ms-sm-0">
+        <li class="nav-item">
+          <a routerLink="/" class="nav-link link-light px-0 me-4">
+            Home
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/clothes" class="nav-link link-light px-0 me-4">
+            Clothes
+          </a>
+        </li>
+        <li class="nav-item">
+          <a routerLink="/reviews" class="nav-link link-light px-0 me-4">
+            Reviews
+          </a>
+        </li>
+      </ul>
+
+      <div class="my-auto ms-auto me-auto me-sm-0 ms-sm-0 header-user-nav">
+
+        <div *ngIf="currentUser; else authNav" class="nav">
+          <span ngbDropdown container="body" class="nav-item">
+            <span ngbDropdownToggle class="d-block link-light text-decoration-none dropdown-toggle py-1"
+              id="dropdown-user-menu" role="button">
+              <i class="bi bi-person-circle lead me-1"></i>
+              {{currentUser.email}}
+            </span>
+            <ul ngbDropdownMenu class="dropdown-menu">
+              <li><a ngbDropdownItem href="/profile">Profile</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a ngbDropdownItem routerLink="/logout">Log out</a></li>
+            </ul>
+          </span>
+        </div>
+
+        <ng-template #authNav>
+          <ul class="nav">
+            <li class="nav-item">
+              <button type="button" class="btn btn-sm btn-outline-light me-2 rounded-pill px-3"
+                (click)="openLoginModal(loginModalContent)" [attr.disabled]="url === '/login' ? 'disabled' : null">
+                Login
+              </button>
+            </li>
+            <li class="nav-item">
+              <a routerLink="/signup" class="btn btn-sm btn-secondary rounded-pill px-3">
+                Sign up
+              </a>
+            </li>
+          </ul>
+        </ng-template>
+
+        <span class="cart-nav">
+          <a routerLink="/cart" class="text-white fs-4">
+            <i class="bi bi-cart"></i>
+            <span
+              class="position-absolute top-25 start-100 translate-middle badge rounded-pill bg-primary mt-1 me-2 {{ cartItemsCount === 0 ? 'd-none' : '' }}">
+              {{ cartItemsCount }}
+              <span class="visually-hidden">items in cart</span>
+            </span>
+          </a>
+        </span>
+      </div>
+
+    </div>
+  </nav>
+
+  <header class="bg-light py-4">
+    <div class="container-fluid container-xxl d-flex flex-wrap justify-content-center">
+      <a routerLink="/" class="d-flex align-items-center mb-3 mb-lg-0 me-lg-auto text-dark text-decoration-none">
+        <span class="fs-3"><span class="text-secondary">CLOTHING&nbsp;</span><span class="text-secondary">STORE</span></span>
+      </a>
+      <form class="col-12 col-mg-6 col-lg-9 mb-3 mb-lg-0">
+        <app-search-form></app-search-form>
+      </form>
+    </div>
+  </header>
+
+
+</div>
+
+<ng-template #loginModalContent let-modal>
+  <div class="modal-header rounded-top">
+    <h3 class="modal-title w-100 text-center ps-4">Login</h3>
+    <button type="button" class="btn-close" aria-label="Close" (click)="modal.dismiss('Cross click')"></button>
+  </div>
+  <div class="modal-body p-0 rounded-bottom overflow-hidden">
+    <app-login-form></app-login-form>
+  </div>
+</ng-template>

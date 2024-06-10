@@ -1,0 +1,6 @@
+<ngb-carousel id="clothes-hero-carousel" class="clothes-hero-carousel carousel-dark">
+    <ng-template ngbSlide *ngFor="let item of clothingItem;  let i = index;">
+      <app-clothes-hero-item [clothingItem]="item"></app-clothes-hero-item>
+    </ng-template>
+</ngb-carousel>
+  

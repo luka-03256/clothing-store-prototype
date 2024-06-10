@@ -1,0 +1,8 @@
+<li class="px-2 mb-1">
+    <div class="form-check">
+        <input type="checkbox" class="form-check-input" value="{{filterItem.id}}" (change)="handleFilterChange($event)" id="filter-{{type}}-{{filterItem.id}}" [checked]="checked">
+        <label for="filter-{{type}}--{{filterItem.id}}" class="form-check-label fw-light fs-6">
+            {{filterItem.name}}
+        </label>
+    </div>
+</li>

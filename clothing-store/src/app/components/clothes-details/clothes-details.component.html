@@ -1,0 +1,48 @@
+<div id="clothes-details" *ngIf="clothingItem">
+    <div class="container-fluid container-xxl px-4 py-5 mb-5">
+        <div class="row">
+            <div class="col-12 col-lg-6">
+                <img src="{{clothingItem.image}}" class="d-block mx-lg-auto img-fluid" height="500">
+            </div>
+            <div class="col-lg-6">
+                <h2 class="fw-light mb-3 pt-4">
+                    {{clothingItem.title}}
+                </h2>
+                <h6 class="mb-4 fw-light text-secondary">
+                    {{clothingItem.category.name}}
+                </h6>
+                <h6 class="mb-4 fw-light text-secondary">
+                    {{clothingItem.producer.name}}
+                </h6>
+                <p class="mb-2 fw-light">
+                    <span class="fw-normal">Size:</span> {{clothingItem.size}}
+                </p>
+                <p class="mb-2 fw-light">
+                    <span class="fw-normal">Produced At:</span> {{clothingItem.productionDate}}
+                </p>
+                <p class="mb-2 fw-light">
+                    <span class="fw-normal">Price:</span> {{clothingItem.price}}&nbsp;{{currency}}
+                </p>
+                <p class="mb-4 pb-5 fw-light border-bottom">
+                    <span class="fw-normal">Description: </span> <br> {{clothingItem.description}}
+                </p>
+                <button class="btn btn-lg btn-primary px-5 rounded-pill" (click)="addToCart(clothingItem)">
+                    Add to cart
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <div *ngIf="reviews.length > 0" class="py-5 border-top" id="clothingItem-reviews">
+        <app-reviews-list [reviews]="reviews"></app-reviews-list>
+    </div>
+
+    <div *ngIf="recommendedClothes.length > 0" class="py-5 border-top">
+        <div class="container-fluid container-xxl mt-4">
+            <div id="recommended-clothes">
+                <app-clothes-list title="Recommended {{clothingItem.category.name}} clothes"
+                    [clothes]="recommendedClothes"></app-clothes-list>
+            </div>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,13 @@
+<a routerLink="/clothes/{{clothingItem.id}}" class="list-item-link d-block text-decoration-none text-dark text-center">
+    <img src="{{clothingItem.image}}" class="d-block mx-auto mb-3 img-fluid">
+    <h5 class="mb-0 list-item-title text-center fw-normal overflow-hidden">
+        {{clothingItem.title}}
+    </h5>
+    <span>Category: {{clothingItem.category.name}}</span>
+    <br/>
+    <span>Producer: {{clothingItem.producer.name}}</span>
+    <br/>
+    <small class="text-uppercase text-primary">
+        Price: {{clothingItem.price}} {{currency}}
+    </small>
+</a>

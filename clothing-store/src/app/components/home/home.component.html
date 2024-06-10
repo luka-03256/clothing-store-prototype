@@ -1,0 +1,15 @@
+<app-clothes-hero-carousel id="home-carousel" [clothingItem]="featuredClothes"></app-clothes-hero-carousel>
+
+<div class="container-fluid container-xxl">
+    <div id="popular-clothes" class="pt-5 mt-5">
+        <app-clothes-list [clothes]="popularClothes" title="The most popular clothes"></app-clothes-list>
+    </div>
+
+    <div id="recent-clothes" class="pt-5 mt-5">
+        <app-clothes-list title="Recent clothes" [clothes]="recentClothes"></app-clothes-list>
+    </div>
+
+    <div id="recommended-clothes" class="pt-5 mt-5">
+        <app-clothes-list [clothes]="recommendedClothes" title="Recommended clothes"></app-clothes-list>
+    </div>
+</div>

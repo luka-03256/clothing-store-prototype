@@ -1,0 +1,16 @@
+<div class="filters-sidebar flex-shrink-0 border-end h-100 pb-2 pb-md-5 pt-5 pe-2">
+    <h5 class="pb-2 mb-2 px-2 d-none d-md-block">
+      Filters:
+    </h5>
+    <div class="filters-content">
+      <div class="row">
+        <div class="col-6 col-md-12 col-lg-12 mb-1">
+          <app-filters-list type="category" [filterItems]="categories"></app-filters-list>
+        </div>
+        <div class="col-6 col-md-12 col-lg-12 mb-1">
+          <app-filters-list type="producer" [filterItems]="producers"></app-filters-list>
+        </div>
+      </div>
+    </div>
+  </div>
+  

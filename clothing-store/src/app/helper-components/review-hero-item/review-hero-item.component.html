@@ -1,0 +1,41 @@
+<div *ngIf="review" class="review-hero-item container-fluid container-xxl">
+    <div class="row flex-lg-row-reverse g-5 py-5 align-items">
+        <div class="col-lg-12 col-12">
+            <div class="py-4 bg-white">
+                <img src="../../../assets/images/{{review.clothesId}}.jpg" class="mx-auto d-block" height="400">
+            </div>
+        </div>
+
+        <div class="col-lg-7">
+            <div class="rating-stars mb-2">
+                <span class="me-1" *ngFor="let item of [].constructor(4); let i = index">
+                    <i *ngIf="i+1 <= review.rating" class="bi bi-star-fill text-warning fs-4"></i>
+                    <i *ngIf="i+1 > review.rating" class="bi bi-star text-warning fs-4"></i>
+                </span>
+            </div>
+            <h2 class="display-4 fst-italic">
+                {{review.title}}
+            </h2>
+
+            <small class="mb-3 fs-7 text-muted d-block">
+                Reviewed by user {{review.user.firstName}} {{review.user.lastName}} on {{review.createdAt}}
+            </small>
+
+            <!--limit review content to 240 characters!!!-->
+            <p class="fw-light" *ngIf="review.content.length <= 240; else truncatedContent">
+                {{review.content}}
+            </p>
+
+            <ng-template #truncatedContent>
+                <div class="fw-light lead my-3">
+                    {{review.content.substring(0,330)}}...
+                    <a href="#show-more" class="text-primary d-inline-block" (click)="openReviewModal($event, reviewModalContent)">Show more</a>
+                </div>
+            </ng-template>
+        </div>
+    </div>
+</div>
+
+<ng-template #reviewModalContent let-modal>
+    <app-review-modal-content [review]="review"></app-review-modal-content>
+</ng-template>

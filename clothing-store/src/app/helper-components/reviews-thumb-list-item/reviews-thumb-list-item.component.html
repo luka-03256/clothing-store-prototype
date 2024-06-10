@@ -1,0 +1,38 @@
+<div class="review-thumb-list-item  border h-100">
+    <div class="row g-0 rounded overflow-hidden flex-md-row align-items-center mb-4 position-relative h-100">
+        <div class="col-12 col-md-6">
+            <div class="p-3">
+                <img src="/assets/images/{{review.clothesId}}.jpg" class="d-block mx-auto img-fluid" height="250">
+            </div>
+        </div>
+
+        <div class="col-12 col-md-6 p-4 d-flex flex-column position-static">
+            <div class="rating-stars mb-1">
+                <span class="me-1" *ngFor="let item of [].constructor(5); let i = index">
+                    <i *ngIf="i+1 <= review.rating" class="bi bi-star-fill text-warning fs-6"></i>
+                    <i *ngIf="i+1 > review.rating" class="bi bi-star text-warning fs-6"></i>
+                </span>
+            </div>
+            <h5 class="mb-0">
+                {{ review.title }}
+            </h5>
+            <p class="mb-1 text-muted">
+                Reviewed by {{review.user.firstName}} {{review.user.lastName}} on {{review.createdAt}}
+            </p>
+            <p *ngIf="review.content.length <= 240; else truncatedContent" class="fw-light card-text mb-auto">
+                {{review.content}}
+            </p>
+            <ng-template #truncatedContent>
+                <p class="fw-light my-3">
+                    {{review.content.substring(0, 140)}}...
+                    <a href="#show-more" class="text-primary d-inline-block"
+                        (click)="openReviewModal($event, reviewModalContent)">Show more</a>
+                </p>
+            </ng-template>
+        </div>
+    </div>
+</div>
+
+<ng-template #reviewModalContent let-modal>
+    <app-review-modal-content [review]="review"></app-review-modal-content>
+</ng-template>
